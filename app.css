@@ -1,0 +1,239 @@
+.container {
+  background-image: url("C:\Users\jeeva\Downloads\Reflection 4K Wallpaper [3840 x 2160].jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 25px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto;
+}
+
+.container h1 {
+  margin-top: 0; 
+}
+
+
+
+
+h2 {
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 30px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.quote {
+  font-size: 24px;
+  font-style:italic;
+  color: rgb(212, 101, 11);
+  margin-bottom: 30px;
+  text-align: center;
+  
+}
+
+.quote-button {
+  padding: 10px 20px;
+  border:medium;
+  border-radius: 20px;
+  background-color: #b7c6e0;
+  font-size: 16px;
+  cursor:grabbing;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.quote-button:hover {
+  background-color: #d0dced;
+}
+.quote-box {
+  border: 1px solid #82d3f1;
+  border-radius: 20px;
+  border-width: 3px;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto; /* add this to center horizontally */
+  margin-bottom: 30px;
+  color: #000000;
+  max-width: 600px; /* add this to set a maximum width */
+}
+
+nav {
+  background-color: #333;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 150px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.footer
+{
+    background-color: rgb(113, 197, 246);
+    height: 100px;
+}
+.icon
+{
+    color: black;
+    font-size: 3.1rem;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background: rgb(113, 197, 246);
+}
+
+.links {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 25px;
+}
+
+.toggleButton {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.toggleButton svg {
+  font-size: 50px;
+}
+.toggleButton button {
+  margin-right: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#open {
+  height: 100vh;
+}
+
+#open .links {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 100px;
+}
+
+#open a {
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar a {
+    width: 70px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .toggleButton {
+    display: flex;
+  }
+  #close a {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .toggleButton {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+
+  #open {
+    height: 100px;
+  }
+
+  #open .links {
+    flex-direction: row;
+  }
+}
+.text1{
+  padding: 180px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #82d3f1;
+  background-image: url("C:\Users\jeeva\Downloads\a couple wallpapers.jpg");
+}
